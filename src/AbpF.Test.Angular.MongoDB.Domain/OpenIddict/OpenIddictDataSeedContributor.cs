@@ -18,6 +18,7 @@ using Volo.Abp.Uow;
 
 namespace AbpF.Test.Angular.MongoDB.OpenIddict;
 
+// error=> 这个 class 可能需要客制化调整 
 /* Creates initial data that is needed to property run the application
  * and make client-to-server communication possible.
  */

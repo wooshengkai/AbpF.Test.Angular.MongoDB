@@ -1,10 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AbpF.Test.Angular.MongoDB.Admins;
+using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.AuditLogging.MongoDB;
 using Volo.Abp.BackgroundJobs.MongoDB;
 using Volo.Abp.FeatureManagement.MongoDB;
 using Volo.Abp.Identity.MongoDB;
 using Volo.Abp.Modularity;
 using Volo.Abp.OpenIddict.MongoDB;
+using Volo.Abp.PermissionManagement;
 using Volo.Abp.PermissionManagement.MongoDB;
 using Volo.Abp.SettingManagement.MongoDB;
 using Volo.Abp.TenantManagement.MongoDB;
@@ -20,7 +22,7 @@ namespace AbpF.Test.Angular.MongoDB.MongoDB;
     typeof(AbpOpenIddictMongoDbModule),
     typeof(AbpBackgroundJobsMongoDbModule),
     typeof(AbpAuditLoggingMongoDbModule),
-    typeof(AbpTenantManagementMongoDbModule),
+    //typeof(AbpTenantManagementMongoDbModule),
     typeof(AbpFeatureManagementMongoDbModule)
     )]
 public class MongoDBMongoDbModule : AbpModule
@@ -29,7 +31,8 @@ public class MongoDBMongoDbModule : AbpModule
     {
         context.Services.AddMongoDbContext<MongoDBMongoDbContext>(options =>
         {
-            options.AddDefaultRepositories();
+            //options.AddDefaultRepositories();
+            options.AddRepository<AdminDB, MongoAdminDBRepository>();
         });
 
         Configure<AbpUnitOfWorkDefaultOptions>(options =>

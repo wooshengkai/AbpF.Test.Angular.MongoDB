@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.Domain", "src\AbpF.Test.Angular.MongoDB.Domain\AbpF.Test.Angular.MongoDB.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
@@ -21,19 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.HttpApi", "src\AbpF.Test.Angular.MongoDB.HttpApi\AbpF.Test.Angular.MongoDB.HttpApi.csproj", "{4164BDF7-F527-4E85-9CE6-E3C2D7426A27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.HttpApi.Client", "src\AbpF.Test.Angular.MongoDB.HttpApi.Client\AbpF.Test.Angular.MongoDB.HttpApi.Client.csproj", "{3B5A0094-670D-4BB1-BFDD-61B88A8773DC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.TestBase", "test\AbpF.Test.Angular.MongoDB.TestBase\AbpF.Test.Angular.MongoDB.TestBase.csproj", "{91853F21-9CD9-4132-BC29-A7D5D84FFFE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.Domain.Tests", "test\AbpF.Test.Angular.MongoDB.Domain.Tests\AbpF.Test.Angular.MongoDB.Domain.Tests.csproj", "{E512F4D9-9375-480F-A2F6-A46509F9D824}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.MongoDB.Tests", "test\AbpF.Test.Angular.MongoDB.MongoDB.Tests\AbpF.Test.Angular.MongoDB.MongoDB.Tests.csproj", "{6015D17B-104B-4EC2-A9B7-D8A40C891458}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.HttpApi.Client.ConsoleTestApp", "test\AbpF.Test.Angular.MongoDB.HttpApi.Client.ConsoleTestApp\AbpF.Test.Angular.MongoDB.HttpApi.Client.ConsoleTestApp.csproj", "{EF480016-9127-4916-8735-D2466BDBC582}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.DbMigrator", "src\AbpF.Test.Angular.MongoDB.DbMigrator\AbpF.Test.Angular.MongoDB.DbMigrator.csproj", "{AA94D832-1CCC-4715-95A9-A483F23A1A5D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.HttpApi.Host", "src\AbpF.Test.Angular.MongoDB.HttpApi.Host\AbpF.Test.Angular.MongoDB.HttpApi.Host.csproj", "{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpF.Test.Angular.MongoDB.HttpApi.Copy", "src\AbpF.Test.Angular.MongoDB.HttpApi.Copy\AbpF.Test.Angular.MongoDB.HttpApi.Copy.csproj", "{48B96AC5-CB8B-4243-BDC1-D240E3024BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpF.Test.Angular.MongoDB.MyRedis", "AbpF.Test.Angular.MongoDB.MyRedis\AbpF.Test.Angular.MongoDB.MyRedis.csproj", "{879CAD93-0393-412D-B095-EF90373A9331}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS_CMS.HttpApi.BackOffice", "src\SMS_CMS.HttpApi.BackOffice\SMS_CMS.HttpApi.BackOffice.csproj", "{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +71,6 @@ Global
 		{4164BDF7-F527-4E85-9CE6-E3C2D7426A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4164BDF7-F527-4E85-9CE6-E3C2D7426A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4164BDF7-F527-4E85-9CE6-E3C2D7426A27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B5A0094-670D-4BB1-BFDD-61B88A8773DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B5A0094-670D-4BB1-BFDD-61B88A8773DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B5A0094-670D-4BB1-BFDD-61B88A8773DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B5A0094-670D-4BB1-BFDD-61B88A8773DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91853F21-9CD9-4132-BC29-A7D5D84FFFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91853F21-9CD9-4132-BC29-A7D5D84FFFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91853F21-9CD9-4132-BC29-A7D5D84FFFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -85,10 +83,6 @@ Global
 		{6015D17B-104B-4EC2-A9B7-D8A40C891458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6015D17B-104B-4EC2-A9B7-D8A40C891458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6015D17B-104B-4EC2-A9B7-D8A40C891458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF480016-9127-4916-8735-D2466BDBC582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF480016-9127-4916-8735-D2466BDBC582}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF480016-9127-4916-8735-D2466BDBC582}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF480016-9127-4916-8735-D2466BDBC582}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -97,6 +91,18 @@ Global
 		{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B96AC5-CB8B-4243-BDC1-D240E3024BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B96AC5-CB8B-4243-BDC1-D240E3024BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B96AC5-CB8B-4243-BDC1-D240E3024BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B96AC5-CB8B-4243-BDC1-D240E3024BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879CAD93-0393-412D-B095-EF90373A9331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879CAD93-0393-412D-B095-EF90373A9331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879CAD93-0393-412D-B095-EF90373A9331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879CAD93-0393-412D-B095-EF90373A9331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,13 +115,14 @@ Global
 		{42F719ED-8413-4895-B5B4-5AB56079BC66} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{520659C8-C734-4298-A3DA-B539DB9DFC0B} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{4164BDF7-F527-4E85-9CE6-E3C2D7426A27} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
-		{3B5A0094-670D-4BB1-BFDD-61B88A8773DC} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{91853F21-9CD9-4132-BC29-A7D5D84FFFE7} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{E512F4D9-9375-480F-A2F6-A46509F9D824} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{6015D17B-104B-4EC2-A9B7-D8A40C891458} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
-		{EF480016-9127-4916-8735-D2466BDBC582} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
+		{48B96AC5-CB8B-4243-BDC1-D240E3024BDD} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
+		{879CAD93-0393-412D-B095-EF90373A9331} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
+		{A9B0FDCA-8EF0-44B9-B5DA-FEF2F2CD4B84} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}

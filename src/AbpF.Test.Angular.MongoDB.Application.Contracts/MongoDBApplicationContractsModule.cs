@@ -1,4 +1,4 @@
-﻿using Volo.Abp.Account;
+﻿//using Volo.Abp.Account;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
@@ -11,12 +11,12 @@ namespace AbpF.Test.Angular.MongoDB;
 
 [DependsOn(
     typeof(MongoDBDomainSharedModule),
-    typeof(AbpAccountApplicationContractsModule),
+    //typeof(AbpAccountApplicationContractsModule),
     typeof(AbpFeatureManagementApplicationContractsModule),
     typeof(AbpIdentityApplicationContractsModule),
     typeof(AbpPermissionManagementApplicationContractsModule),
     typeof(AbpSettingManagementApplicationContractsModule),
-    typeof(AbpTenantManagementApplicationContractsModule),
+    //typeof(AbpTenantManagementApplicationContractsModule),
     typeof(AbpObjectExtendingModule)
 )]
 public class MongoDBApplicationContractsModule : AbpModule
